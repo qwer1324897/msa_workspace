@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+# RabbitMQ 연동
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: liveshop
+    password: '1234'
+
+logging:
+  level:
+    root: info
+    com.ch.saga_shop: debug
