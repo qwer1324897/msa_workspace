@@ -21,7 +21,7 @@ spring:
           uri: https://github.com/qwer1324897/config-repo.git
           default-label: main
           username: qwer1324897
-          password: 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
+          password: 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
 
           clone-on-start: true    # 서버 가동 시 즉시 git clone
           force-pull: true  # 매번 pull 을 강제하겠다 라는 뜻. (변경 설정을 반영하기 위해)
